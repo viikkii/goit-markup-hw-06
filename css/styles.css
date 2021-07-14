@@ -855,12 +855,22 @@ img {
 
 /* РАЗМЕТКА МОДАЛЬНОГО ОКНА */
 .modal-form {
-  padding: 20px;
+  padding-top: 40px;
+  padding-left: 41px;
+  padding-right: 39px;
 }
 
 .form-field {
   display: flex;
   flex-direction: column;
+}
+
+.form-label {
+  padding-bottom: 10px;
+}
+
+.form-input {
+  margin-bottom: 10px;
 }
 
 .btn-send {
@@ -875,4 +885,5 @@ img {
   line-height: 1.15;
   text-align: center;
   color: var(--section-text-color);
+  margin-bottom: 10px;
 }
