@@ -953,13 +953,18 @@ img {
 }
 
 .form-checkbox:checked + .checkbox-label::before {
-  background-image: url('../images/sprite/icon-che.svg');
+  background-image: url('../images/sprite/icon-check.svg');
+  background-color: var(--accent-color);
   border: none;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-origin: padding-box;
 }
 
 .form-checkbox:focus + .checkbox-label::before {
-  border: 1px solid var(--accent-color);
-  background-image: url('../images/sprite/icon-che.svg');
+  border-color: var(--button-second-color);
+  width: 16px;
+  height: 15px;
 }
 
 .checkbox-label::before {
